@@ -3,7 +3,7 @@
 import 'dart:io';
 
 void main() {
-  print("Enter a Number: ");
+  stdout.write("Enter a Number: ");
   int? n = int.parse(stdin.readLineSync()!);
 
   if (n % 2 == 0) {
